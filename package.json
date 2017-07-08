@@ -9,6 +9,7 @@
   "author": "anurag",
   "license": "ISC",
   "dependencies": {
-    "alexa-sdk": "^1.0.11"
+    "alexa-sdk": "^1.0.11",
+    "request": "^2.81.0"
   }
 }
