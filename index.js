@@ -70,6 +70,17 @@ const handlers = {
 
         }.bind(this));
     },
+        'NumberInSpace': function () {
+        request({url: 'http://api.open-notify.org/astros.json', json: true}, function(err, res, json) {
+          if (err) {
+            throw err;
+          }
+          console.log(json);
+          this.attributes.speechOutput = this.t('PEOPLE_MESSAGE', json['number']);
+          this.emit(':tell', this.attributes.speechOutput);
+
+        }.bind(this));
+    },
     'AMAZON.HelpIntent': function () {
         this.attributes.speechOutput = this.t('HELP_MESSAGE');
         this.attributes.repromptSpeech = this.t('HELP_REPROMT');
