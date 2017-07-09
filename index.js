@@ -9,12 +9,12 @@ const APP_ID = undefined; //'amzn1.ask.skill.56599d56-7ffe-4177-84fe-a17d2c6b5af
 const languageStrings = {
     'en': {
         translation: {
-            SKILL_NAME: 'Space Station Helper',
-            WELCOME_MESSAGE: 'Hello! Welcome to %s. You can make requests such as, where is the space station',
+            SKILL_NAME: 'Outer Space',
+            WELCOME_MESSAGE: 'Hello! Welcome to %s. You can make requests such as, where is the international space station',
             WELCOME_REPROMT: 'For instructions on what you can say, please say help me.',
             LOCATION_MESSAGE: 'The international space station is currently at %s degrees latitude and %s degrees longitude.',
             PEOPLE_MESSAGE: 'There are currently %s people in space. ',
-            HELP_MESSAGE: 'You can make requests such as, where is the space station',
+            HELP_MESSAGE: 'You can make requests such as, where is the international space station',
             HELP_REPROMT: "You can say things like, where is the space station, or you can say exit...Now, what can I help you with?",
             NOT_FOUND: 'Sorry, I don\'t have any information on %s',
             STOP_MESSAGE: 'Goodbye!'
